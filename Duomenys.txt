@@ -1,7 +1,0 @@
-User_idUser|idBook|name|author|publisher|status
-1|1|Zvirbliuko nuotykiai|Styvas Erzintojas|Baltos duobes|Skaitoma
-2|2|Skruzdeliuko nuotykiai|Maiklas Berastis|Alma Astalavista|Neperskaityta
-1|4|Manijakiuko nuotykiai|Dzonis Deeperis|Technikos Pragaras|Neperskaityta
-1|3|Tarakoniuko nuotykiai|Graziavardis Graziapavardis|Baltos duobes|Neperskaityta
-2|6|Berniuko nuotykiai|Jackas Bulve|Technikos Pragaras|Skaitoma
-2|5|Serial kileriuko nuotykiai|Maria De Kojine|Alma Astalavista|Neperskaityta
