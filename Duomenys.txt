@@ -1,4 +1,4 @@
-User_idUser|idBook|name|author|publisher|status
+Vartotojo ID|Knygos ID|Knygos pavadinimas|Autorius|Leidykla|Busena
 1|1|Zvirbliuko nuotykiai|Styvas Erzintojas|Baltos duobes|Skaitoma
 2|2|Skruzdeliuko nuotykiai|Maiklas Berastis|Alma Astalavista|Neperskaityta
 1|4|Manijakiuko nuotykiai|Dzonis Deeperis|Technikos Pragaras|Neperskaityta

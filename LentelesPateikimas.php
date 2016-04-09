@@ -1,7 +1,7 @@
 <?php
 
 
-include 'PrisijungimasPrieDB.php';
+//include 'PrisijungimasPrieDB.php';
 /**
  *
  *
@@ -18,6 +18,7 @@ class LentelesPateikimas
 
     function __construct($NaudotojoID)
     {
+
         $this->NaudotojoID = $NaudotojoID;
 
     }
@@ -30,19 +31,38 @@ class LentelesPateikimas
 
         $eilute = explode("\n", $dokumentas);
 
-        foreach ($eilute as $NaujaEilute) {
+        echo "<table>";
 
-            $EilutesElementai = explode("|", $NaujaEilute);
+            echo "<tr>";
 
-            if ($EilutesElementai[0] == $this->NaudotojoID) {
+                echo "<td><h4>Knygos pavadinimas</h4></td>";
+                echo "<td><h4>Autorius</h4></td>";
+                echo "<td><h4>Leidykla</h4></td>";
+                echo "<td><h4>Busena</h4></td>";
 
-                echo $EilutesElementai[2]."<br>";
+            echo "</tr>";
 
+            foreach ($eilute as $NaujaEilute) {
+
+                $EilutesElementai = explode("|", $NaujaEilute);
+
+                echo "<tr>";
+
+                    if ($EilutesElementai[0] == $this->NaudotojoID) {
+
+                        for ($i=2;$i<=5;$i++) {
+
+                            echo "<td>".$EilutesElementai[$i]."</td>";
+
+                        }
+
+                    }
+
+                echo "</tr>";
 
             }
 
-
-        }
+        echo "</table>";
 
 
     }
@@ -50,9 +70,9 @@ class LentelesPateikimas
 }
 
 
-$pat = new LentelesPateikimas(1);
+//$pat = new LentelesPateikimas(1);
 
-$pat->KnyguDuomenuPateikimas();
+//$pat->KnyguDuomenuPateikimas();
 
 
 ?>
