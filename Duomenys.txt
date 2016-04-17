@@ -1,7 +1,9 @@
-User_idUser|idBook|name|author|publisher|status
-1|1|Zvirbliuko nuotykiai|Styvas Erzintojas|Baltos duobes|Skaitoma
-2|2|Skruzdeliuko nuotykiai|Maiklas Berastis|Alma Astalavista|Neperskaityta
-1|4|Manijakiuko nuotykiai|Dzonis Deeperis|Technikos Pragaras|Neperskaityta
-1|3|Tarakoniuko nuotykiai|Graziavardis Graziapavardis|Baltos duobes|Neperskaityta
-2|6|Berniuko nuotykiai|Jackas Bulve|Technikos Pragaras|Skaitoma
-2|5|Serial kileriuko nuotykiai|Maria De Kojine|Alma Astalavista|Neperskaityta
+|Vardas  |Pavarde |Knygos pavadinimas ----|Knygos autorius ----|Leidėjas -----------------------|Būsena -------|
+|--------------------------------------------------------------------------------------------------------------|
+| Martin | Tubis -| The Hunger Games -----| Suzanne Collins ---|Scholastic Press ---------------|Skaitoma -----|
+| Martin | Tubis -| To Kill a Mockingbird | Harper Lee --------|Harper Perennial Modern Classics|Neperskaityta |
+| Martin | Tubis -| Animal Farm ----------| George Orwell -----|NAL ----------------------------|Neperskaityta |
+| Martin | Tubis -| Gone with the Wind ---| Margareth Mitchell |Grand Central Publishing -------|Neperskaityta |
+| Martin | Tubis -| The Book Thief -------| Markus Zusak ------|Knopf Books for Young Readers --|Skaitoma -----|
+| Martin | Tubis -| The Giving Tree ------| Shel Silverstein --|HarperCollins Publishers -------|Neperskaityta |
+ --------------------------------------------------------------------------------------------------------------
