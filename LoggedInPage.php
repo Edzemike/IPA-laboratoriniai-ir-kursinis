@@ -14,6 +14,7 @@ function KnyguDuomenuPateikimas()
 
     while (!feof($file_handle)) {
         echo fgetss($file_handle) . "<br />";
+
     }
     fclose($file_handle);
 }
