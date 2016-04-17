@@ -7,6 +7,19 @@ session_start();
 //    header("Location: LoginScreen.php");
 //}
 
+function KnyguDuomenuPateikimas()
+{
+
+    $file_handle = fopen("Duomenys.txt","r");
+
+    while (!feof($file_handle)) {
+        echo fgetss($file_handle) . "<br />";
+
+    }
+    fclose($file_handle);
+}
+KnyguDuomenuPateikimas();
+
 ?>
 
 <!DOCTYPE html>
@@ -14,21 +27,25 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <title>Logged In</title>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script type="javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
-<h1>You have succesfully logged in!</h1>
+<style>
+    form {
+        display: inline;
+    }
+</style>
 <form action="LogoutPage.php">
-    <input type="submit" name="logout" value="Logout">
+    <input type="submit" class="btn btn-primary btn-lg" name="logout" value="Logout">
 </form>
 
 
 <!-- modal button -->
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-    Launch demo modal
+    Pridėti knygą.
 </button>
 
 <!-- Modal -->
