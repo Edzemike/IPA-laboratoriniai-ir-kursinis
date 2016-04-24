@@ -7,18 +7,7 @@ session_start();
 //    header("Location: LoginScreen.php");
 //}
 
-function KnyguDuomenuPateikimas()
-{
-
-    $file_handle = fopen("Duomenys.txt","r");
-
-    while (!feof($file_handle)) {
-        echo fgetss($file_handle) . "<br />";
-
-    }
-    fclose($file_handle);
-}
-KnyguDuomenuPateikimas();
+Include("DisplayTable.php")
 
 ?>
 
@@ -27,6 +16,7 @@ KnyguDuomenuPateikimas();
 <head>
     <meta charset="UTF-8">
     <title>Logged In</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -37,14 +27,21 @@ KnyguDuomenuPateikimas();
         display: inline;
     }
 </style>
+
+<div id='wrapper'>
+
+    <?php
+    $pat = new DisplayTable(2);
+    $pat->KnyguDuomenuPateikimas();
+    ?>
+
+</div> <!-- baigiasi wrapper -->
+
 <form action="LogoutPage.php">
-    <input type="submit" class="btn btn-primary btn-lg" name="logout" value="Logout">
+    <input type="submit" class="col-md-3 col-md-offset-3 btn btn-default btn-xs" name="logout" value="Logout">
 </form>
 
-
-<!-- modal button -->
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+<button type="button" class="col-md-3 col-md-offset-0 btn btn-default btn-xs" data-toggle="modal" data-target="#myModal">
     Pridėti knygą.
 </button>
 
@@ -60,7 +57,7 @@ KnyguDuomenuPateikimas();
                 <p>Duomenų bazė neparuošta. Įkėlimas negalimas.</p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Uždaryti</button>
+                <button type="button" class="btn btn-default btn-xs" data-dismiss="modal">Uždaryti</button>
             </div>
         </div>
     </div>

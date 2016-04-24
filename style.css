@@ -1,0 +1,30 @@
+@charset "windows-1257";
+/* CSS document */
+
+body {
+
+    background-color: #f1e4ca;
+    font-family: 'Times New Roman';
+    color: #000000;
+    margin: 0;
+    padding: 0;
+
+}
+
+#wrapper {
+
+    width: 800px;
+    margin: 100px auto;
+
+}
+
+table {
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+th, td {
+
+    border-bottom: 2px solid #490d08;
+}

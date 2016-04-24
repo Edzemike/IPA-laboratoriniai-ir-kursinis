@@ -1,9 +1,7 @@
-|Vardas  |Pavarde |Knygos pavadinimas ----|Knygos autorius ----|Leidėjas -----------------------|Būsena -------|
-|--------------------------------------------------------------------------------------------------------------|
-| Martin | Tubis -| The Hunger Games -----| Suzanne Collins ---|Scholastic Press ---------------|Skaitoma -----|
-| Martin | Tubis -| To Kill a Mockingbird | Harper Lee --------|Harper Perennial Modern Classics|Neperskaityta |
-| Martin | Tubis -| Animal Farm ----------| George Orwell -----|NAL ----------------------------|Neperskaityta |
-| Martin | Tubis -| Gone with the Wind ---| Margareth Mitchell |Grand Central Publishing -------|Neperskaityta |
-| Martin | Tubis -| The Book Thief -------| Markus Zusak ------|Knopf Books for Young Readers --|Skaitoma -----|
-| Martin | Tubis -| The Giving Tree ------| Shel Silverstein --|HarperCollins Publishers -------|Neperskaityta |
- --------------------------------------------------------------------------------------------------------------
+Vartotojo ID|Knygos ID|Knygos pavadinimas|Autorius|Leidykla|Busena
+2|1|The Hunger Games|Suzanne Collins|Scholastic Press|Skaitoma
+2|2|To Kill a Mockingbird|Harper Lee|Harper Perennial Modern Classics|Neperskaityta
+2|4|Animal Farm|George Orwell|NAL|Neperskaityta
+2|3|Gone with the Wind|Margareth Mitchell|Grand Central Publishing|Neperskaityta
+2|6|The Book Thief|Markus Zusak|Knopf Books for Young Readers|Skaitoma
+2|5|The Giving Tree|Shel Silverstein|HarperCollins Publishers|Neperskaityta
