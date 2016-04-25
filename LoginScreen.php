@@ -50,7 +50,7 @@
 </style>
 <body>
 <h1>Login</h1>
-<form action="LoginScreen.php" method="POST">
+<form action="LoggedInPage.php" method="POST">
     <input type="text" name="nickname" placeholder="Username">
     <input type="password" name="password" placeholder="Password">
     <input type="submit" name="login" value="Login">
